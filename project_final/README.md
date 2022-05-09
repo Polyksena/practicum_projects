@@ -33,13 +33,13 @@
 - seaborn
 - numpy
 - sklearn
- - GridSearchCV
- - roc_auc_score
- - confusion_matrix
- - shuffle
- - train_test_split
- - DecisionTreeClassifier
- - RandomForestClassifier
- - LogisticRegression
+  - GridSearchCV
+  - roc_auc_score
+  - confusion_matrix
+  - shuffle
+  - train_test_split
+  - DecisionTreeClassifier
+  - RandomForestClassifier
+  - LogisticRegression
 - catboost
 - lightgbm
