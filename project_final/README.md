@@ -1,0 +1,42 @@
+#Данные:
+- customerID - id клиента
+- BeginDate - дата заключения
+- EndDate - дата окончания
+- Type - тип контракта
+- PaperlessBilling - тип оплаты
+- PaymentMethod - метод оплаты
+- MonthlyCharges - месячное списание
+- TotalCharges - всего списано
+- InternetService - тип интернет подключения
+- OnlineSecurity - онлайн безопасность
+- OnlineBackup - онлайн резервная копия
+- DeviceProtection - защита устройства
+- TechSupport - техническая поддержка
+- StreamingTV - Просмотр ТВ
+- StreamingMovies - Просмотр кино
+- gender - пол
+- SeniorCitizen - пожилой(0/1) пользователь
+- Partner - партнер(0/1)
+- Dependents - зависимый финансово(0/1) пользователь
+- MultipleLines - подключение к нескольким линям одновременно (0/1)
+
+#Задача
+Построить прототип модели машинного обучения для прогнозирования оттока клиентов оператора связи.
+Необходимо обучить модель, у которой метрика качества AUC-ROC будет выше, чем 0.88
+
+#Используемые библиотеки
+- pandas
+- matplotlib
+- seaborn
+- numpy
+- sklearn
+ - GridSearchCV
+ - roc_auc_score
+ - confusion_matrix
+ - shuffle
+ - train_test_split
+ - DecisionTreeClassifier
+ - RandomForestClassifier
+ - LogisticRegression
+- catboost
+- lightgbm
